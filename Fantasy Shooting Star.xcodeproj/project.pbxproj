@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D276FC42AF23C62001D245D /* Video_Game_Explosion_Sound_Effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D276FC32AF23C62001D245D /* Video_Game_Explosion_Sound_Effect.mp3 */; };
+		1D60EFFA2AFCBDB9001A3D2F /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D60EFF92AFCBDB9001A3D2F /* GameOverScene.swift */; };
+		1D628F322AEFA3F400C4970F /* Laser_Gun_Sound_Effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D628F312AEFA3F400C4970F /* Laser_Gun_Sound_Effect.mp3 */; };
+		1D6A605E2AEF9601000FDC68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A605D2AEF9601000FDC68 /* AppDelegate.swift */; };
+		1D6A60602AEF9601000FDC68 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1D6A605F2AEF9601000FDC68 /* GameScene.sks */; };
+		1D6A60622AEF9601000FDC68 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1D6A60612AEF9601000FDC68 /* Actions.sks */; };
+		1D6A60642AEF9601000FDC68 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A60632AEF9601000FDC68 /* GameScene.swift */; };
+		1D6A60662AEF9601000FDC68 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A60652AEF9601000FDC68 /* GameViewController.swift */; };
+		1D6A60692AEF9601000FDC68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D6A60672AEF9601000FDC68 /* Main.storyboard */; };
+		1D6A606B2AEF9602000FDC68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D6A606A2AEF9602000FDC68 /* Assets.xcassets */; };
+		1D6A606E2AEF9602000FDC68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D6A606C2AEF9602000FDC68 /* LaunchScreen.storyboard */; };
+		1D6A60782AEF9602000FDC68 /* Fantasy_Shooting_StarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A60772AEF9602000FDC68 /* Fantasy_Shooting_StarTests.swift */; };
+		1D6A60822AEF9602000FDC68 /* Fantasy_Shooting_StarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A60812AEF9602000FDC68 /* Fantasy_Shooting_StarUITests.swift */; };
+		1D6A60842AEF9602000FDC68 /* Fantasy_Shooting_StarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A60832AEF9602000FDC68 /* Fantasy_Shooting_StarUITestsLaunchTests.swift */; };
+		1DBF58242AFE1EB300815DF1 /* TAGameboy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DBF58232AFE1EB300815DF1 /* TAGameboy-Regular.ttf */; };
+		EBEDF55E2AFE75B30011E46B /* Bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBEDF55D2AFE75B30011E46B /* Bgm.mp3 */; };
+		EBEDF5602AFE782E0011E46B /* Gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBEDF55F2AFE782E0011E46B /* Gameover.mp3 */; };
+		EBEDF5622AFE79CA0011E46B /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBEDF5612AFE79CA0011E46B /* click.mp3 */; };
+		EBF6EDF82B120A3000831A98 /* Pixelpoint.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF6EDF72B120A3000831A98 /* Pixelpoint.ttf */; };
+		EBF6EDF92B120A3000831A98 /* Pixelpoint.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF6EDF72B120A3000831A98 /* Pixelpoint.ttf */; };
+		EBF6EDFA2B120A3000831A98 /* Pixelpoint.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF6EDF72B120A3000831A98 /* Pixelpoint.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D6A60742AEF9602000FDC68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D6A60522AEF9601000FDC68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6A60592AEF9601000FDC68;
+			remoteInfo = "Fantasy Shooting Star";
+		};
+		1D6A607E2AEF9602000FDC68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D6A60522AEF9601000FDC68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6A60592AEF9601000FDC68;
+			remoteInfo = "Fantasy Shooting Star";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D276FC32AF23C62001D245D /* Video_Game_Explosion_Sound_Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Video_Game_Explosion_Sound_Effect.mp3; sourceTree = "<group>"; };
+		1D5C2F492AF49D3A008E24A7 /* Fantasy-Shooting-Star-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Fantasy-Shooting-Star-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1D60EFF92AFCBDB9001A3D2F /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		1D628F312AEFA3F400C4970F /* Laser_Gun_Sound_Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Laser_Gun_Sound_Effect.mp3; sourceTree = "<group>"; };
+		1D6A605A2AEF9601000FDC68 /* Fantasy Shooting Star.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fantasy Shooting Star.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6A605D2AEF9601000FDC68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D6A605F2AEF9601000FDC68 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1D6A60612AEF9601000FDC68 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		1D6A60632AEF9601000FDC68 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 0; };
+		1D6A60652AEF9601000FDC68 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1D6A60682AEF9601000FDC68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D6A606A2AEF9602000FDC68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D6A606D2AEF9602000FDC68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D6A60732AEF9602000FDC68 /* Fantasy Shooting StarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fantasy Shooting StarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6A60772AEF9602000FDC68 /* Fantasy_Shooting_StarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fantasy_Shooting_StarTests.swift; sourceTree = "<group>"; };
+		1D6A607D2AEF9602000FDC68 /* Fantasy Shooting StarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fantasy Shooting StarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6A60812AEF9602000FDC68 /* Fantasy_Shooting_StarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fantasy_Shooting_StarUITests.swift; sourceTree = "<group>"; };
+		1D6A60832AEF9602000FDC68 /* Fantasy_Shooting_StarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fantasy_Shooting_StarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1DBF58232AFE1EB300815DF1 /* TAGameboy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TAGameboy-Regular.ttf"; sourceTree = "<group>"; };
+		EBEDF55D2AFE75B30011E46B /* Bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bgm.mp3; sourceTree = "<group>"; };
+		EBEDF55F2AFE782E0011E46B /* Gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gameover.mp3; sourceTree = "<group>"; };
+		EBEDF5612AFE79CA0011E46B /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		EBF6EDF72B120A3000831A98 /* Pixelpoint.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixelpoint.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D6A60572AEF9601000FDC68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6A60702AEF9602000FDC68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6A607A2AEF9602000FDC68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D6A60512AEF9601000FDC68 = {
+			isa = PBXGroup;
+			children = (
+				1D6A605C2AEF9601000FDC68 /* Fantasy Shooting Star */,
+				1D6A60762AEF9602000FDC68 /* Fantasy Shooting StarTests */,
+				1D6A60802AEF9602000FDC68 /* Fantasy Shooting StarUITests */,
+				1D6A605B2AEF9601000FDC68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D6A605B2AEF9601000FDC68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6A605A2AEF9601000FDC68 /* Fantasy Shooting Star.app */,
+				1D6A60732AEF9602000FDC68 /* Fantasy Shooting StarTests.xctest */,
+				1D6A607D2AEF9602000FDC68 /* Fantasy Shooting StarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D6A605C2AEF9601000FDC68 /* Fantasy Shooting Star */ = {
+			isa = PBXGroup;
+			children = (
+				1D5C2F492AF49D3A008E24A7 /* Fantasy-Shooting-Star-Info.plist */,
+				1D6A605D2AEF9601000FDC68 /* AppDelegate.swift */,
+				1D6A605F2AEF9601000FDC68 /* GameScene.sks */,
+				EBEDF55D2AFE75B30011E46B /* Bgm.mp3 */,
+				1D6A60612AEF9601000FDC68 /* Actions.sks */,
+				EBEDF55F2AFE782E0011E46B /* Gameover.mp3 */,
+				1D60EFF92AFCBDB9001A3D2F /* GameOverScene.swift */,
+				1D6A60632AEF9601000FDC68 /* GameScene.swift */,
+				1D6A60652AEF9601000FDC68 /* GameViewController.swift */,
+				EBEDF5612AFE79CA0011E46B /* click.mp3 */,
+				1D6A60672AEF9601000FDC68 /* Main.storyboard */,
+				1DBF58232AFE1EB300815DF1 /* TAGameboy-Regular.ttf */,
+				EBF6EDF72B120A3000831A98 /* Pixelpoint.ttf */,
+				1D628F312AEFA3F400C4970F /* Laser_Gun_Sound_Effect.mp3 */,
+				1D276FC32AF23C62001D245D /* Video_Game_Explosion_Sound_Effect.mp3 */,
+				1D6A606A2AEF9602000FDC68 /* Assets.xcassets */,
+				1D6A606C2AEF9602000FDC68 /* LaunchScreen.storyboard */,
+			);
+			path = "Fantasy Shooting Star";
+			sourceTree = "<group>";
+		};
+		1D6A60762AEF9602000FDC68 /* Fantasy Shooting StarTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D6A60772AEF9602000FDC68 /* Fantasy_Shooting_StarTests.swift */,
+			);
+			path = "Fantasy Shooting StarTests";
+			sourceTree = "<group>";
+		};
+		1D6A60802AEF9602000FDC68 /* Fantasy Shooting StarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D6A60812AEF9602000FDC68 /* Fantasy_Shooting_StarUITests.swift */,
+				1D6A60832AEF9602000FDC68 /* Fantasy_Shooting_StarUITestsLaunchTests.swift */,
+			);
+			path = "Fantasy Shooting StarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6A60592AEF9601000FDC68 /* Fantasy Shooting Star */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6A60872AEF9602000FDC68 /* Build configuration list for PBXNativeTarget "Fantasy Shooting Star" */;
+			buildPhases = (
+				1D6A60562AEF9601000FDC68 /* Sources */,
+				1D6A60572AEF9601000FDC68 /* Frameworks */,
+				1D6A60582AEF9601000FDC68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fantasy Shooting Star";
+			productName = "Fantasy Shooting Star";
+			productReference = 1D6A605A2AEF9601000FDC68 /* Fantasy Shooting Star.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D6A60722AEF9602000FDC68 /* Fantasy Shooting StarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6A608A2AEF9602000FDC68 /* Build configuration list for PBXNativeTarget "Fantasy Shooting StarTests" */;
+			buildPhases = (
+				1D6A606F2AEF9602000FDC68 /* Sources */,
+				1D6A60702AEF9602000FDC68 /* Frameworks */,
+				1D6A60712AEF9602000FDC68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D6A60752AEF9602000FDC68 /* PBXTargetDependency */,
+			);
+			name = "Fantasy Shooting StarTests";
+			productName = "Fantasy Shooting StarTests";
+			productReference = 1D6A60732AEF9602000FDC68 /* Fantasy Shooting StarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D6A607C2AEF9602000FDC68 /* Fantasy Shooting StarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6A608D2AEF9602000FDC68 /* Build configuration list for PBXNativeTarget "Fantasy Shooting StarUITests" */;
+			buildPhases = (
+				1D6A60792AEF9602000FDC68 /* Sources */,
+				1D6A607A2AEF9602000FDC68 /* Frameworks */,
+				1D6A607B2AEF9602000FDC68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D6A607F2AEF9602000FDC68 /* PBXTargetDependency */,
+			);
+			name = "Fantasy Shooting StarUITests";
+			productName = "Fantasy Shooting StarUITests";
+			productReference = 1D6A607D2AEF9602000FDC68 /* Fantasy Shooting StarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D6A60522AEF9601000FDC68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1D6A60592AEF9601000FDC68 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1D6A60722AEF9602000FDC68 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1D6A60592AEF9601000FDC68;
+					};
+					1D6A607C2AEF9602000FDC68 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1D6A60592AEF9601000FDC68;
+					};
+				};
+			};
+			buildConfigurationList = 1D6A60552AEF9601000FDC68 /* Build configuration list for PBXProject "Fantasy Shooting Star" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D6A60512AEF9601000FDC68;
+			productRefGroup = 1D6A605B2AEF9601000FDC68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6A60592AEF9601000FDC68 /* Fantasy Shooting Star */,
+				1D6A60722AEF9602000FDC68 /* Fantasy Shooting StarTests */,
+				1D6A607C2AEF9602000FDC68 /* Fantasy Shooting StarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D6A60582AEF9601000FDC68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D628F322AEFA3F400C4970F /* Laser_Gun_Sound_Effect.mp3 in Resources */,
+				1D6A60692AEF9601000FDC68 /* Main.storyboard in Resources */,
+				EBEDF5622AFE79CA0011E46B /* click.mp3 in Resources */,
+				1D6A60602AEF9601000FDC68 /* GameScene.sks in Resources */,
+				1D6A606B2AEF9602000FDC68 /* Assets.xcassets in Resources */,
+				1D6A606E2AEF9602000FDC68 /* LaunchScreen.storyboard in Resources */,
+				EBF6EDF82B120A3000831A98 /* Pixelpoint.ttf in Resources */,
+				1D276FC42AF23C62001D245D /* Video_Game_Explosion_Sound_Effect.mp3 in Resources */,
+				EBEDF5602AFE782E0011E46B /* Gameover.mp3 in Resources */,
+				EBEDF55E2AFE75B30011E46B /* Bgm.mp3 in Resources */,
+				1D6A60622AEF9601000FDC68 /* Actions.sks in Resources */,
+				1DBF58242AFE1EB300815DF1 /* TAGameboy-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6A60712AEF9602000FDC68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF6EDF92B120A3000831A98 /* Pixelpoint.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6A607B2AEF9602000FDC68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF6EDFA2B120A3000831A98 /* Pixelpoint.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D6A60562AEF9601000FDC68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6A60642AEF9601000FDC68 /* GameScene.swift in Sources */,
+				1D6A60662AEF9601000FDC68 /* GameViewController.swift in Sources */,
+				1D60EFFA2AFCBDB9001A3D2F /* GameOverScene.swift in Sources */,
+				1D6A605E2AEF9601000FDC68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6A606F2AEF9602000FDC68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6A60782AEF9602000FDC68 /* Fantasy_Shooting_StarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6A60792AEF9602000FDC68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6A60842AEF9602000FDC68 /* Fantasy_Shooting_StarUITestsLaunchTests.swift in Sources */,
+				1D6A60822AEF9602000FDC68 /* Fantasy_Shooting_StarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D6A60752AEF9602000FDC68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D6A60592AEF9601000FDC68 /* Fantasy Shooting Star */;
+			targetProxy = 1D6A60742AEF9602000FDC68 /* PBXContainerItemProxy */;
+		};
+		1D6A607F2AEF9602000FDC68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D6A60592AEF9601000FDC68 /* Fantasy Shooting Star */;
+			targetProxy = 1D6A607E2AEF9602000FDC68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D6A60672AEF9601000FDC68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D6A60682AEF9601000FDC68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D6A606C2AEF9602000FDC68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D6A606D2AEF9602000FDC68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6A60852AEF9602000FDC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D6A60862AEF9602000FDC68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D6A60882AEF9602000FDC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fantasy-Shooting-Star-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.criticalken.Fantasy-Shooting-Star";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6A60892AEF9602000FDC68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fantasy-Shooting-Star-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.criticalken.Fantasy-Shooting-Star";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1D6A608B2AEF9602000FDC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.criticalken.Fantasy-Shooting-StarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fantasy Shooting Star.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fantasy Shooting Star";
+			};
+			name = Debug;
+		};
+		1D6A608C2AEF9602000FDC68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.criticalken.Fantasy-Shooting-StarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fantasy Shooting Star.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fantasy Shooting Star";
+			};
+			name = Release;
+		};
+		1D6A608E2AEF9602000FDC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.criticalken.Fantasy-Shooting-StarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fantasy Shooting Star";
+			};
+			name = Debug;
+		};
+		1D6A608F2AEF9602000FDC68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.criticalken.Fantasy-Shooting-StarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fantasy Shooting Star";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6A60552AEF9601000FDC68 /* Build configuration list for PBXProject "Fantasy Shooting Star" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6A60852AEF9602000FDC68 /* Debug */,
+				1D6A60862AEF9602000FDC68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6A60872AEF9602000FDC68 /* Build configuration list for PBXNativeTarget "Fantasy Shooting Star" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6A60882AEF9602000FDC68 /* Debug */,
+				1D6A60892AEF9602000FDC68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6A608A2AEF9602000FDC68 /* Build configuration list for PBXNativeTarget "Fantasy Shooting StarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6A608B2AEF9602000FDC68 /* Debug */,
+				1D6A608C2AEF9602000FDC68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6A608D2AEF9602000FDC68 /* Build configuration list for PBXNativeTarget "Fantasy Shooting StarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6A608E2AEF9602000FDC68 /* Debug */,
+				1D6A608F2AEF9602000FDC68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D6A60522AEF9601000FDC68 /* Project object */;
+}
